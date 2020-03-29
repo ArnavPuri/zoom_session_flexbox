@@ -1,0 +1,70 @@
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.page{
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    margin: 12px;
+    border-radius: 12px;
+    border-top: 6px solid hsl(180, 62%, 55%);
+    box-shadow: 0px 0 12px hsl(0, 0%, 29%);
+}
+
+/* For my reference */
+
+/* .layout-page{
+    display: flex;
+    background: rgb(45, 29, 1);
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+}
+
+.red-box{
+    background-color: rgb(245, 118, 118);
+}
+
+.blue-box{
+    background-color: rgb(118, 201, 245);
+}
+
+.green-box{
+    background-color: rgb(129, 245, 118);
+} */
